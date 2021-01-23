@@ -1,1 +1,113 @@
-<html></html>
+<!DOCTYPE html><meta http-equiv=refresh content=5 >
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f195adfa6d204d0f83aeb324bcb7eaa5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f195adfa6d204d0f83aeb324bcb7eaa5" ></div>
+        
+</body>
+<script>    
+    
+            var map_f195adfa6d204d0f83aeb324bcb7eaa5 = L.map(
+                "map_f195adfa6d204d0f83aeb324bcb7eaa5",
+                {
+                    center: [53.3470256, -6.2559473],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14654f9d88084a9585246698934df92b = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f195adfa6d204d0f83aeb324bcb7eaa5);
+        
+    
+            var marker_a1a6b124d54f49e99ef5e110f4e5cc06 = L.marker(
+                [53.35655, -6.273583],
+                {}
+            ).addTo(map_f195adfa6d204d0f83aeb324bcb7eaa5);
+        
+    
+            var icon_1266e597c3f842d4952dded099003f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a1a6b124d54f49e99ef5e110f4e5cc06.setIcon(icon_1266e597c3f842d4952dded099003f39);
+        
+    
+            marker_a1a6b124d54f49e99ef5e110f4e5cc06.bindTooltip(
+                `<div>
+                     vehicle: 33369<br>speed: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae26d0ffc56e4079aed17decb13d3e1b = L.marker(
+                [53.31725, -6.231683],
+                {}
+            ).addTo(map_f195adfa6d204d0f83aeb324bcb7eaa5);
+        
+    
+            var icon_11c1cd2230f246998006a5c7d657493f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ae26d0ffc56e4079aed17decb13d3e1b.setIcon(icon_11c1cd2230f246998006a5c7d657493f);
+        
+    
+            marker_ae26d0ffc56e4079aed17decb13d3e1b.bindTooltip(
+                `<div>
+                     vehicle: 24267<br>speed: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6208b4ea45564c1fa4ab34b0bb9e66f9 = L.marker(
+                [53.42960256, -6.3409473],
+                {}
+            ).addTo(map_f195adfa6d204d0f83aeb324bcb7eaa5);
+        
+    
+            var div_icon_df1cf6825348413fa8177741bfde9658 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"width: 500px; font-size: 15pt; color: black; font-weight: bold; background: white; opacity: 0.75; border: 2px solid black; text-align: center;\"\u003e\n            Bus speed predicitions\u003cbr\u003e\n            Hover on the icons to see the vehicle id and speed\n            \u003c/div\u003e"});
+            marker_6208b4ea45564c1fa4ab34b0bb9e66f9.setIcon(div_icon_df1cf6825348413fa8177741bfde9658);
+        
+</script>
