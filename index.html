@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a8d277c7f256438f94cf48aa587c7d9f {
+                #map_44cc35c3e61a44bda14ec4382ac2559d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_a8d277c7f256438f94cf48aa587c7d9f" ></div>
+            <div class="folium-map" id="map_44cc35c3e61a44bda14ec4382ac2559d" ></div>
         
 </body>
 <script>    
     
-            var map_a8d277c7f256438f94cf48aa587c7d9f = L.map(
-                "map_a8d277c7f256438f94cf48aa587c7d9f",
+            var map_44cc35c3e61a44bda14ec4382ac2559d = L.map(
+                "map_44cc35c3e61a44bda14ec4382ac2559d",
                 {
                     center: [53.3470256, -6.2559473],
                     crs: L.CRS.EPSG3857,
@@ -55,39 +55,39 @@
 
         
     
-            var tile_layer_0f5b30af341343e0aab93b4fc60aab3a = L.tileLayer(
+            var tile_layer_ea05132fb2074ffbb44e33795f69a819 = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a8d277c7f256438f94cf48aa587c7d9f);
+            ).addTo(map_44cc35c3e61a44bda14ec4382ac2559d);
         
     
-            var marker_9dacdb8d6e5640c792d843e3ea12fbb3 = L.marker(
-                [53.324356, -6.32566],
+            var marker_e075954ff8404071b9cb37be70e57fc0 = L.marker(
+                [53.324264, -6.326231],
                 {}
-            ).addTo(map_a8d277c7f256438f94cf48aa587c7d9f);
+            ).addTo(map_44cc35c3e61a44bda14ec4382ac2559d);
         
     
-            var icon_f13ee7fadcd2431d98f0457764f55dd3 = L.AwesomeMarkers.icon(
+            var icon_70c30310c32041ea93062b685805245e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_9dacdb8d6e5640c792d843e3ea12fbb3.setIcon(icon_f13ee7fadcd2431d98f0457764f55dd3);
+            marker_e075954ff8404071b9cb37be70e57fc0.setIcon(icon_70c30310c32041ea93062b685805245e);
         
     
-            marker_9dacdb8d6e5640c792d843e3ea12fbb3.bindTooltip(
+            marker_e075954ff8404071b9cb37be70e57fc0.bindTooltip(
                 `<div>
-                     vehicle: 44447<br>speed: 30
+                     vehicle: 44447<br>speed: 10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_516abcfe18d3405dbed89000159fa452 = L.marker(
+            var marker_2076fc1f68fb42b3891babd7b441e9a0 = L.marker(
                 [53.41760256, -6.3489473],
                 {}
-            ).addTo(map_a8d277c7f256438f94cf48aa587c7d9f);
+            ).addTo(map_44cc35c3e61a44bda14ec4382ac2559d);
         
     
-            var div_icon_1a7019ce92da4300bf9bcbc8a63f81a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"width: 560px; font-size: 15pt; color: black; font-weight: bold; background: white;\n            opacity: 0.75; border: 2px solid black; text-align: center; z-index: 10000000;\"\u003e\n            Bus speed predicitions\u003cbr\u003e\n            Hover on the icons to see the vehicle id and speed\u003cbr\u003e\n            green: 40 or lower | orange: 40 to 55 | red: above 55 [km/h]\n            \u003c/div\u003e"});
-            marker_516abcfe18d3405dbed89000159fa452.setIcon(div_icon_1a7019ce92da4300bf9bcbc8a63f81a2);
+            var div_icon_3b294270980b4c598ef7f97a180f364d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"width: 560px; font-size: 15pt; color: black; font-weight: bold; background: white;\n            opacity: 0.75; border: 2px solid black; text-align: center; z-index: 10000000;\"\u003e\n            Bus speed predicitions\u003cbr\u003e\n            Hover on the icons to see the vehicle id and speed\u003cbr\u003e\n            green: 40 or lower | orange: 40 to 55 | red: above 55 [km/h]\n            \u003c/div\u003e"});
+            marker_2076fc1f68fb42b3891babd7b441e9a0.setIcon(div_icon_3b294270980b4c598ef7f97a180f364d);
         
 </script>
